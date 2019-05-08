@@ -1,0 +1,42 @@
+[
+  {
+    "foodName": "Slice Chicken",
+    "foodPrice": 1000,
+    "sign": "Ft"
+  },
+  {
+    "foodName": "Ordinary Pizza",
+    "foodPrice": 900,
+    "sign": "Ft"
+  },
+  {
+    "foodName": "Spaghetti",
+    "foodPrice": 800,
+    "sign": "Ft"
+  },
+  {
+    "foodName": "Meal",
+    "foodPrice": 1000,
+    "sign": "Ft"
+  },
+  {
+    "foodName": "Soda",
+    "foodPrice": 200,
+    "sign": "Ft"
+  },
+  {
+    "foodName": "Coca-cola",
+    "foodPrice": 250,
+    "sign": "Ft"
+  },
+  {
+    "foodName": "Sprite",
+    "foodPrice": 250,
+    "sign": "Ft"
+  },
+  {
+    "foodName": "Water",
+    "foodPrice": 250,
+    "sign": "Ft"
+  }
+]
