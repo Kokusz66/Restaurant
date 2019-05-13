@@ -1,0 +1,12 @@
+[
+  {
+    "foodName": "Something",
+    "foodPrice": 200,
+    "sign": "Ft"
+  },
+  {
+    "foodName": "Something3",
+    "foodPrice": 400,
+    "sign": "Ft"
+  }
+]

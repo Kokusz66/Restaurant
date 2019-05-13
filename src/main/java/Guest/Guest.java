@@ -4,7 +4,7 @@ public class Guest {
 
     private static int guestCounter;
 
-    public Guest(){
+    public static void addGuest(){
         guestCounter++;
     }
 

@@ -1,4 +1,4 @@
-package javafx;
+package food;
 
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 
@@ -11,6 +11,7 @@ public class Food {
     public Food(){
         this.foodName="";
         this.foodPrice=0;
+        this.sign="Ft";
     }
 
     public Food(String foodName, int foodPrice, String sign){
@@ -27,12 +28,20 @@ public class Food {
         this.foodName = foodName;
     }
 
-    public double getFoodPrice() {
+    public int getFoodPrice() {
         return foodPrice;
     }
 
     public void setFoodPrice(int foodPrice) {
         this.foodPrice = foodPrice;
+    }
+
+    public String getSign() {
+        return sign;
+    }
+
+    public void setSign(String sign) {
+        this.sign = sign;
     }
 
     public String toString() {
