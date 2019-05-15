@@ -29,6 +29,10 @@ public class JsonTest {
         gson.toJson(food, fileWriter);
         fileWriter.close();
     }
+    @After
+    public void delete(){
+        food.removeAll();
+    }
 
 
 }
