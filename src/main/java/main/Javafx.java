@@ -62,14 +62,12 @@ public class Javafx extends Application {
         backToMainPage = new Button("Back to the Main page");
         backToMainPage.setOnAction(e -> {
             logger.info("Button pressed, going to the main page");
-            //System.out.println("Back to the Main page");
             window.setScene(scene1);
         });
 
         backToMainPage2 = new Button("Back to the Main page");
         backToMainPage2.setOnAction(e -> {
             logger.info("Button pressed, going to the main page");
-            //System.out.println("Back to the Main page");
             window.setScene(scene1);
         });
 
@@ -251,7 +249,7 @@ public class Javafx extends Application {
         } else{
             RaiseIncome();
             window.setScene(scene3);
-            logger.info("Order is done, scene moves to scene3");
+            logger.info("Order is done, moving to the end scene");
         }
     }
 
